@@ -1,0 +1,49 @@
+{
+  "components": [
+    {
+      "text": "# Book Issue Form",
+      "type": "text",
+      "id": "Field_Title",
+      "layout": { "row": "Row_0", "columns": null }
+    },
+    {
+      "label": "Student Name",
+      "type": "textfield",
+      "id": "Field_StudentName",
+      "key": "studentName",
+      "layout": { "row": "Row_1", "columns": null },
+      "validate": { "required": true }
+    },
+    {
+      "label": "Book Title",
+      "type": "textfield",
+      "id": "Field_BookTitle",
+      "key": "bookTitle",
+      "layout": { "row": "Row_2", "columns": null },
+      "validate": { "required": true }
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Issue Date",
+      "type": "datetime",
+      "id": "Field_IssueDate",
+      "key": "issueDate",
+      "layout": { "row": "Row_3", "columns": null },
+      "validate": { "required": true }
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Due Date",
+      "type": "datetime",
+      "id": "Field_DueDate",
+      "key": "dueDate",
+      "layout": { "row": "Row_4", "columns": null },
+      "validate": { "required": true }
+    }
+  ],
+  "type": "default",
+  "id": "book_issue_form",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "schemaVersion": 16
+}
